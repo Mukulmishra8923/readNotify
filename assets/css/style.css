@@ -1,0 +1,2042 @@
+
+.body{
+    font-family: Montserrat, sans-serif;;
+}
+
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1600px ;
+    
+    }
+}
+
+
+h1,h2,h3,h4,h5 ,li, a {
+    font-family: Montserrat;
+}
+
+p{
+    font-family: "Open Sans", sans-serif;
+}
+
+
+
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+.navTabs{
+
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+    margin: 0px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.navTabs li:hover{
+ color: #064CBC;
+ cursor: pointer;
+}
+.navBtns{
+    display: flex;
+    gap: 50px;
+}
+.navBtn{
+    text-decoration: none;
+    font-size: 18px;
+    padding: 11px 40px 11px 40px;
+    color: white;
+    background: linear-gradient(to right,#FF3737,#C50000);
+    border: 1px solid transparent;
+    border-image: linear-gradient(to right, #FB7C7C, #FFFFFF);
+    border-radius: 10px;
+}
+.navBtn:hover{
+    background: linear-gradient(to right,#0B57CF,#0B57CF);
+    cursor: pointer;
+}
+.heroSection{
+    background-color: #064CBC;
+}
+.worldMap{
+    background-image: url(/assets/images/worldMap.png);
+    background-repeat: no-repeat;
+}
+
+.hero{
+    display: flex;
+}
+.heroPadding{
+    padding-top: 133px;
+}
+.heroLeft{
+    width: 756px;
+}
+.heroLeft h1{
+    font-size: 44px;
+    font-weight: 700;
+    color: white;
+}
+.headerText1{
+    color: white;
+    font-family: Montserrat;
+font-size: 28px;
+font-weight: 700;
+letter-spacing: 0.27px;
+
+}
+.heroPara1{
+
+font-size: 28px;
+font-weight: 500;
+color: white;
+
+}
+.heroPara2{
+    
+font-size: 28px;
+font-weight: 600;
+color: white;
+
+
+}
+.icon{
+    display: flex;
+    gap: 25px;
+}
+
+.icon a{
+    display: flex;
+    background-color: #FFFFFF;
+padding: 4.23px 20.11px 4.23px 20.11px;
+gap: 5.29px;
+border-radius: 10.58px;
+align-items: center;
+font-size: 13.76px;
+font-weight: 600;
+color: #333333;
+}
+
+.heroSecondText{
+    margin-top: 50px;
+}
+.extensionBtn{
+    margin-top: 48px;
+    display: flex;
+    color: #F5F5F5;
+    gap: 40px;
+}
+.heroRightImg{
+  /* display: none; */
+    transform: translateX(85px);
+}
+.extensionBtn a{
+   display: flex;
+padding: 20px 40px 20px 40px;
+gap: 10px;
+border-radius: 10px ;
+border: 1px ;
+background: linear-gradient(to right,#FF3737,#C50000);
+}
+.heroSection .extensionBtn a{
+    padding: 20px 20px 20px 20px;
+    font-size: 15px;
+}
+.extensionBtn a:hover {
+    color: yellow;
+    background: linear-gradient(to right,#7337ff,#007dc5);
+    transition: width .35s ease-in-out;;
+    cursor: pointer;
+          }
+
+.trustedUser{
+ margin-top: 50px;
+font-size: 24.69px;
+font-weight: 700;
+color: white;
+}
+.mainName{
+font-family: Montserrat;
+font-size: 250px;
+font-weight: 600;
+text-align: center;
+color: #1C74FF;
+margin-top: -43px;
+
+}
+
+/* ---------------------------------------------------readSection------------------------------------------------- */
+
+.readSection{
+   
+        margin-top: -89px;
+        background: #FFFFFF;
+        position: relative;
+}
+.readSection h2{
+font-size: 52px;
+font-weight: 700;
+text-align: center;
+}
+.readCardlogoImg{
+    width: 76px;
+}
+
+.readSection h2 span{
+    color: #C50000;
+}
+
+.readSection .readPara{
+max-width: 1325px;
+font-size: 36px;
+font-weight: 600;
+
+text-align: center;
+color: #333333;
+}
+.readSection h5{
+  
+font-size: 24px;
+font-weight: 700;
+color: #000000;
+}
+.readSection .readCard{
+    display: flex;
+    gap: 28px;
+    max-width: 477px;
+}
+.readCardText p{
+    font-family: Open Sans;
+font-size: 20px;
+font-weight: 600;
+
+}
+.readCardParent{
+    display: flex;
+    justify-content: center;
+    gap: 41px;
+    margin-top: 75px;
+    max-width: 1514px;
+}
+.readFetureSection{
+    margin-top: 200px;
+    max-width: 1514px;
+}
+.readHeading{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.readSection .extensionBtn{
+justify-content: center;
+}
+/* -------------------------------------------------extensionSection----------------------------------------------------------------- */
+
+.ourExtensionSection{
+padding: 190px 0px;
+}
+.ourExtensionSection {
+    position: relative; /* Ensure positioning context for the pseudo-element */
+    z-index: 1; /* Ensure this section is above the background */
+}
+
+.ourExtensionSection::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(/assets/images/backgroundImg.png);
+    background-size: cover; /* Adjust as needed */
+    background-position: center; /* Adjust as needed */
+    opacity: 0.04; /* Adjust opacity as needed */
+    z-index: -1; /* Ensure it stays behind the content */
+    pointer-events: none; /* Ensure it doesn't interfere with user interaction */
+}
+
+.ourExtensionHeading {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ourExtensionSection h2{
+   
+    font-size: 52px;
+    font-weight: 700;
+    
+}
+.ourExtensionSection h2 span{
+    color: #F01D1D;
+}
+.ourExtensionHeading p{
+    font-family: Open Sans;
+font-size: 26px;
+font-weight: 600;
+line-height: 39px;
+max-width: 1112px;
+
+}
+.ourExtensionHeading p span{
+    color: #F01D1D;
+}
+.extensionCardParent{
+    padding: 7px;
+    /* justify-content: space-between; */
+    margin-top: 80px;
+}
+.extensionCard{
+    max-width: 340px;
+    padding: 35px 20px;
+    height: 328px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+    border: none;
+    background-color: #DBDCDC66;
+}
+.extensionCard:hover{
+    background-color: white;
+    box-shadow: 0px 0px 10px 10px #2020200A;
+    cursor: pointer;
+}
+
+.extensionCard h5{
+font-size: 23.25px;
+font-weight: 600;
+margin-top: 10px;
+}
+.extensionCard p{
+    color: #6F7680;
+    font-family: Open Sans;
+font-size: 15.5px;
+font-weight: 500;
+margin: 0;
+
+}
+.extensionCardBtn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+.extensionCardBtn p{
+font-size: 18.13px;
+font-weight: 600;
+color: #363F4A;
+
+
+}
+.cardCarousel .owl-nav [class*=owl-]:hover {
+    background: unset;
+    color: #FFF;
+    text-decoration: none;
+}
+.cardCarousel .owl-stage-outer {
+    position: relative;
+    overflow: hidden;
+    padding: 20px;
+}
+.cardCarousel  .owl-item img {
+    display: block;
+    width: unset;
+}
+.cardCarousel .item{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.cardCarousel .custom-prev-icon {
+    /* Add your custom styles for the previous button */
+    background: url('/assets/images/carouselRightIcon.svg') no-repeat center center;
+    transform: rotate(180deg);
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+ .cardCarousel .custom-next-icon {
+    /* Add your custom styles for the next button */
+    background: url('/assets/images/carouselRightIcon.svg') no-repeat center center;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: inline-block;
+}
+ .cardCarousel  .owl-nav {
+    margin-top: 50px;
+}
+.cardCarousel .owl-theme .owl-nav [class*=owl-]:hover {
+    background: unset;
+    color: #FFF;
+    text-decoration: none;
+}
+.trackingSection{
+ background-color: #EEF8FE;
+ padding: 100px 0px;
+}
+.trackingHeading{
+    display: flex;
+    justify-content: center;
+}
+.trackingSection .trackingHeading h2{
+  
+font-size: 52px;
+font-weight: 700;
+
+}
+.trackingHeading h2 span{
+    display: flex;
+    justify-content: center;
+    color: #F01D1D;
+}
+.globe, .hide{
+    display: flex;
+    gap: 30px;
+    max-width: 277px;
+    align-items: center;
+}
+.trackingSection h3{
+font-size: 42px;
+font-weight: 600;
+
+}
+.trackingLeftSection{
+    max-width: 665px;
+    padding: 0px;
+}
+.trackingLeftSection p{
+font-size: 26px;
+margin-top: 28px;
+font-weight: 500;
+
+color: #333333;
+}
+.trackingLeftSection .trackingPara{
+   padding-right: 50px; 
+}
+.trackingLeftSection p span{
+    color: #F01D1D;
+}
+.trackingRightSection{
+    max-width: 688px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.trackingSection h3 span{
+    color: #0B57CF;
+}
+.trackingIcon{
+    display: flex;
+    margin-top: 48px;
+    gap: 30px;
+}
+.trackingRightSection h2{
+font-size: 99.35px;
+font-weight: 700;
+color: #0B57CF;
+
+}
+.trackingAchievement{
+    display: flex;
+    gap: 74px;
+}
+.trackingAchievement2{
+    display: flex;
+    gap: 62px;
+}
+.trackingAchievement h5{
+font-size: 28px;
+font-weight: 600;
+line-height: 34.13px;
+
+}
+.trackingAchievement2 h5{
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 34.13px;
+    
+    }
+.trackingSection .row{
+    gap: 137px;
+    margin-top: 90px;
+    justify-content: center;
+}
+
+/* --------------------------------------------------organisationSection-------------------------------------------------------------- */
+
+.organisationSection{
+    padding: 50px 0px;
+    background-color: #F1F4FF;
+}
+.organisationHeading{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.organisationSection .organisationHeading h3{
+   max-width: 676px;
+font-size: 26px;
+font-weight: 600;
+color: #6E6E6E;
+
+}
+.organisationHeading h3 span{
+    color: #FF1B1B;
+}
+.microsoft{
+    color: #2196F3;
+}
+.yahoo{
+    color: #6001D1;
+}
+.google{
+    color: #D93F21;
+}
+.office{
+    color: #805DAF;
+}
+.outlook{
+    color: #0178D4;
+}
+.organisationLogos{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-bottom: 50px;
+}
+.organisationLogo{
+    display: flex;
+    gap: 15px;
+}
+.organisationLogo h5{
+font-size: 26px;
+font-weight: 600;
+line-height: 46.8px;
+text-align: center;
+
+}
+
+/* -------------------------------------------testimonialSection----------------------------------------------------------------------- */
+
+.testimonialSection{
+padding-top: 200px;
+}
+.testimonialSection {
+    position: relative; /* Ensure positioning context for the pseudo-element */
+    z-index: 1; /* Ensure this section is above the background */
+}
+
+.testimonialSection::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(/assets/images/backgroundImg.png);
+    background-size: cover; /* Adjust as needed */
+    background-position: center; /* Adjust as needed */
+    opacity: 0.04; /* Adjust opacity as needed */
+    z-index: -1; /* Ensure it stays behind the content */
+    pointer-events: none; /* Ensure it doesn't interfere with user interaction */
+}
+
+.testimonialSection h5{
+    color: #0B57CF;
+font-size: 24px;
+font-weight: 700;
+letter-spacing: 0.25px;
+text-align: center;
+margin-bottom: 40px;
+position: relative;
+}
+.testimonialHeading h5::before{
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 256px;
+    bottom: 1%;
+   background-color: #0B57CF;
+}
+
+
+.testimonialSection .testimonialHeading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 70px;
+
+}
+.testimonialSection h2{
+    font-family: Montserrat;
+font-size: 48px;
+font-weight: 600;
+line-height: 57.6px;
+text-align: center;
+max-width: 839px;
+}
+.testimonialSection h2 span{
+    color: #FF3737;
+}
+.testimonialCard h4{
+font-size: 28px;
+font-weight: 700;
+line-height: 24px;
+color: #0B57CF;
+
+}
+.testimonialCard h3{
+font-size: 16px;
+font-weight: 700;
+
+}
+.testimonialSection .card{
+    width: 480px;
+    padding: 36px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px 0px #02356D24;
+    border: none;
+    border-radius: 20px;
+}
+.testimonialSection .card:hover{
+    transform: scale(1.03);
+    transition: width .35s ease-in-out;
+    cursor: pointer;
+}
+.testimonialSection .card p{
+font-size: 18px;
+font-weight: 500;
+max-width: 380px;
+color: #888888;
+margin-top: 35px;
+margin-bottom: 0px;
+}
+.testimonialSection .cardNameSection{
+    display: flex;
+    gap: 30px;
+    padding-bottom: 37px;
+    border-bottom: 1px solid #CCCCCC;
+}
+.testimonialCardParent{
+    display: flex;
+    gap: 60px;
+}
+.testimonialCarousel .item{
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.testimonialCarousel {
+
+}
+
+
+
+.testimonialCarousel  .owl-item img {
+    display: unset;
+    width: unset;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------blogSection--------------------------------------------- */
+.blogSection{
+ padding: 200px 0px;
+}
+.blogSection .blogHeading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.blogSection .blogHeading h5{
+font-size: 24px;
+font-weight: 700;
+letter-spacing: 0.25px;
+color: #0B57CF;
+position: relative;
+margin-bottom: 32px;
+}
+.blogHeading h5::before{
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 85px;
+    bottom: 1%;
+   background-color: #0B57CF;
+}
+.blogHeading h2{
+font-size: 48px;
+font-weight: 600;
+max-width: 759px;
+text-align: center;
+
+}
+.blogHeading h2 span{
+    color: #FF3737;
+}
+.blogCardParent{
+ margin-top: 80px;
+ display: flex;
+ gap: 44px;
+ justify-content: center;
+}
+.blogCardParent .blogCard{
+max-width: 503px;
+padding-right: 10px;
+border: none;
+}
+.blogCard .card-body{
+    padding: 20px 0px;
+}
+.blogCard .card-title{
+    font-size: 24px;
+    font-weight: 600;
+    /* text-align: left; */
+    
+}
+.blogCard .card-text{
+font-size: 18px;
+font-weight: 500;
+line-height: 25.2px;
+text-align: left;
+color: #333333;
+
+}
+.blogCard .btnColor{
+    background: linear-gradient(92.94deg, #FF3737 -8.87%, #F01D1D 85.02%);
+    color: #F5F5F5;
+padding: 20px 40px 20px 40px;
+gap: 10px;
+border-radius: 10px ;
+border: 1px solid;
+border-image-source: linear-gradient(91.32deg, #FB7C7C -4.93%, #FFFFFF 105.09%);
+font-size: 18px;
+font-weight: 600;
+margin-top: 8px;
+
+}
+.blogCard .btnColor:hover{
+    background: linear-gradient(92.94deg, #064CBC -8.87%, #064CBC 85.02%);
+
+}
+
+/* --------------------------------------------footerSection---------------------------------------------------------- */
+
+.footerSection{
+    background-color: #1B36A6;
+    color: white;
+    padding-top: 80px;
+}
+.footerTabs{
+    display: flex;
+    justify-content: space-between;
+}
+.footerTabs ul{
+    padding-left: 20px;
+}
+
+.footerTabs li{
+    list-style: url(/assets/images/footerArrow.svg);
+    margin-top: 20px;
+}
+.footerTabs li:hover{
+    color: red;
+    cursor: pointer;
+}
+.footerTabs li:hover ::marker svg{
+    color: red;
+    fill: red;
+}
+.footerSection .footerPara{
+    max-width: 395px;
+font-size: 18px;
+font-weight: 500;
+margin-top: 57px;
+}
+.footerSection .footerData{
+    border-bottom: 1px solid #FFFFFF69;
+    padding-bottom: 20px;
+}
+
+.copyrightSection{
+    padding: 30px 0px;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* align-items: end; */
+}
+.copyrightSection .privacyTabs{
+    display: flex;
+    gap: 52px;
+    align-items: center;
+    justify-content: end;
+}
+
+.privacyTabs a:hover {
+    color: #F01D1D !important;
+    cursor: pointer;
+}
+
+.copyrightSection .socials{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.socials img{
+    padding-right: 15px;
+}
+
+.socials img:hover{
+    /* background-color: red; */
+    color: red;
+}
+
+.serviceSection{
+    /* background-image: url(/assets/images/backgroundImg.png); */
+    /* opacity: 0.5%; */
+}
+.serviceSection {
+    position: relative; /* Ensure positioning context for the pseudo-element */
+    z-index: 1; /* Ensure this section is above the background */
+}
+
+.serviceSection::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(/assets/images/backgroundImg.png);
+    background-size: cover; /* Adjust as needed */
+    background-position: center; /* Adjust as needed */
+    opacity: 0.04; /* Adjust opacity as needed */
+    z-index: -1; /* Ensure it stays behind the content */
+    pointer-events: none; /* Ensure it doesn't interfere with user interaction */
+}
+
+
+
+
+
+.serviceParent{
+    max-width: 1456px;
+    margin-bottom: 200px;
+}
+.serviceMainHeading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 200px;
+}
+.serviceMainHeading h5{
+   
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33.6px;
+    letter-spacing: 0.25px;
+    color: #0B57CF;
+    position: relative;
+    margin-bottom: 20px;
+}
+.serviceMainHeading h5::before{
+ position: absolute;
+ content: "";
+ height: 2px;
+ width: 85px;
+ background-color: #0B57CF;
+ bottom: 1%;
+}
+
+.serviceMainHeading h2{
+font-size: 48px;
+font-weight: 600;
+line-height: 57.6px;
+text-align: center;
+max-width: 710px;
+margin-bottom: 200px;
+
+}
+.serviceSection .serviceNumber{
+    background-color: #0B57CF;
+    color: white;
+    width: 81px;
+    height: 81px;
+    font-family: Poppins;
+font-size: 40px;
+font-weight: 500;
+line-height: 48px;
+border-radius: 50%;
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+}
+.serviceNumber::before{
+    content: url(/assets/images/ServiceLine.svg);
+    position: absolute;
+    top: 160%;
+}
+.serviceSection .serviceNumber2{
+    background-color: #0B57CF;
+    color: white;
+    width: 81px;
+    height: 81px;
+    font-family: Poppins;
+font-size: 40px;
+font-weight: 500;
+line-height: 48px;
+border-radius: 50%;
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+}
+
+.installing{
+    display: flex;
+    justify-content: end;
+    gap: 125px;
+    align-items: center;
+    margin-bottom: 200px;
+}
+.installing2{
+    display: flex;
+    justify-content: start;
+    gap: 125px;
+    align-items: center;
+    margin-bottom: 200px;
+}
+.installing .serviceText{
+padding: 60px 30px 60px 30px;
+gap: 10px;
+border-radius: 20px;
+max-width: 554px;
+box-shadow: 0px 0px 5px 5px #20202014;
+/* border: 1px solid red; */
+/* margin-bottom: 180px; */
+}
+.installing2 .serviceText{
+    padding: 60px 30px 60px 30px;
+    gap: 10px;
+    border-radius: 20px;
+    max-width: 575px;
+    /* border: 1px solid red; */
+    box-shadow: 0px 0px 5px 5px #20202014;
+    }
+
+.serviceText h3{
+   
+font-size: 32px;
+font-weight: 600;
+}
+.serviceText span{
+    color: #F42C2C;
+}
+.serviceText p{
+font-size: 20px;
+font-weight: 400;
+line-height: 28px;
+text-align: center;
+}
+.serviceSection .extensionBtn{
+    justify-content: center;
+}
+
+
+
+
+/* ----------------------------------------------------------RESPONSIVECSS-------------------------------------------------------------------------- */
+
+
+
+/* --------------------------------------------------------------laptop responsive---------------------------------------- */
+
+@media (max-width: 1280px) {
+    .container {
+        max-width: 1240px ;
+    
+    }
+
+
+
+
+    /* -------------------------------------------------------------------laptopNavSection----------------------------------------------------------- */
+    .navBtns {
+     
+        gap: 30px;
+    }
+
+
+
+    /* ----------------------------------------------------------------laptopHeroSection--------------------------------------------------------------------- */
+
+    .mainName {
+        font-size: 177px;
+        margin-top: -15px;
+    }
+    .heroLeft h1 {
+        font-size: 35px;
+        font-weight: 700;
+        color: white;
+    }
+    .heroRightImg{
+        max-width: 93%;
+        transform: translateX(65px);
+    }
+
+    /* --------------------------------------------------laptopreadSection-------------------------------------------------------------- */
+    .readSection {
+        margin-top: -68px;
+    }
+
+
+    .readSection h2 {
+        font-size: 48px;
+    }
+    .readSection .readPara {
+        max-width: 1055px;
+        font-size: 30px;
+     
+    }
+    .readCardText p {
+
+        font-size: 16px;
+    }
+    .readSection h5 {
+        font-size: 20px;
+    }
+    .readSection .readCard {
+        gap: 15px;
+        max-width: 392px;
+    }
+    .readCardParent {
+        gap: 30px;
+        /* max-width: 1514px; */
+    }
+
+               /* ---------------------------------------------------laptopOurExtensionSection----------------------------------- */
+
+ .ourExtensionSection h2 {
+    font-size: 48px;
+ }           
+ .ourExtensionHeading p {
+    font-size: 22px;
+    max-width: 950px;
+}
+
+
+
+/* -------------------------------------------------------laptopOurExtension----------------------------------------------------------- */
+
+.extensionCardBtn p {
+    font-size: 15.13px;
+}
+.extensionCard h5 {
+    font-size: 20.25px;
+}
+
+.extensionCard {
+    max-width: 296px;
+    padding: 35px 20px;
+    border-radius: 20px;
+    background-color: #DBDCDC66;
+}
+
+/* -------------------------------------------------------------laptopTrackingSection---------------------------------------- */
+.trackingSection .trackingHeading h2 {
+    font-size: 48px;
+}
+
+.trackingSection h3 {
+    font-size: 35px;
+}
+.trackingLeftSection p {
+    font-size: 22px;
+}
+.trackingLeftSection {
+    max-width: 563px;
+    padding-left: 10px;
+}
+.trackingRightSection h2 {
+    font-size: 80.35px;
+}
+.trackingAchievement h5 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 34.13px;
+}
+.trackingAchievement2 h5 {
+    font-size: 24px;
+}
+.trackingRightSection {
+    max-width: 575px;
+}
+.trackingSection .row {
+    gap: 80px;
+    margin-top: 90px;
+}
+.globe, .hide {
+    gap: 15px;
+    max-width: 243px;
+}
+
+
+/* ------------------------------------------------------------------laptopServiceSection------------------------------------------------- */
+.serviceMainHeading h5 {
+    font-size: 22px;
+  
+}
+.serviceMainHeading h2 {
+    font-size: 42px;
+    max-width: 569px;
+    margin-bottom: 200px;
+}
+.installing2 .serviceText {
+    padding: 40px 20px 40px 20px;
+    gap: 10px;
+    border-radius: 20px;
+    max-width: 497px;
+    border: 1px solid red;
+}
+.installing .serviceText {
+    padding: 40px 20px 40px 20px;
+    gap: 10px;
+    border-radius: 20px;
+    max-width: 485px;
+    border: 1px solid red;
+    /* margin-bottom: 180px; */
+}
+.serviceText h3 {
+    font-size: 28px;
+}
+.installing2 {
+    gap: 80px;
+  
+}
+.installing {
+    gap: 75px;
+}
+
+.installLast .serviceNumber ::before{
+    display: none;
+}
+
+.orgLogoSize{
+    width: 35px;
+}
+.organisationLogo h5 {
+    font-size: 21px;
+}
+.organisationLogos {
+    gap: 40px;
+    padding-bottom: 50px;
+}
+
+
+
+
+/* -----------------------------------------testimonialSection----------------------------------- */
+.testimonialCard h4 {
+    font-size: 25px;
+   
+}
+.testimonialSection .card {
+    width: 374px;
+    height: 401px;
+    padding: 30px;
+    border-radius: 20px;
+}
+.testimonialSection .card p {
+    font-size: 16px;
+    max-width: 322px;
+}
+.testimonialCard h3 {
+    font-size: 14px;
+  
+}
+.testimonialSection .cardNameSection {
+   gap: 23px;
+ 
+}
+
+
+
+                             /* ----------------------------------blogSection---------------------------------------- */
+.blogHeading h2 {                      
+  font-size: 42px;
+ max-width: 633px;             
+ }
+ .blogSection .blogHeading h5 {
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+.blogCard .card-title {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.blogCard .btnColor {
+    padding: 15px 35px 15px 35px;
+  
+}
+.blogCardParent .blogCard {
+    max-width: 380px;
+    padding-right: 0px;
+    border: none;
+}
+
+/* ------------------------------------------footerSection------------------------------------------------------ */
+
+.footerListHeading{
+    font-size: 25px;
+}
+.footerTabs li {
+    margin-top: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+/* --------------------------------------------------tabRasponsive------------------------------------ */
+
+@media (max-width: 1024px) {
+    .container {
+        max-width: 95% ;
+    
+    }
+    .hero {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    .heroLeft {
+        max-width: 100%;
+    }
+    .heroRightImg{
+        max-width: 100%;
+        transform: unset;
+        margin-bottom: 40px;
+    }
+
+    .pcNavbar{
+        display: none;
+    }
+    .header-logo{
+        margin-top: -8px;
+        padding-bottom: 14px;
+     }
+     .sidepanel {
+        height: 100vh;
+        width: 100%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 100%;
+        background: #1C74FF;
+        overflow-x: hidden;
+        padding-top: 50px;
+        transition: 0.3s;
+    }
+    .sidepanel a {
+        /* padding: 8px 8px 8px 32px; */
+        margin-bottom: 20px;
+        text-decoration: none;
+        font-size: 22px;
+        font-weight: 700;
+        color:white;
+        display: block;
+        text-transform: uppercase;
+        transition: 0.3s;
+        text-align: center;
+     }
+     .sidepanel .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 40px;
+        margin-left: 50px;
+     }
+     .hide-sidebar {
+        padding: 10px;
+        border-bottom: 1px solid #1C74FF;
+     }
+     .openbtn {
+        font-size: 35px;
+        cursor: pointer;
+        background: transparent;
+        color: #1C74FF;
+        border: none;
+        margin-top: -10px;
+        float: right;
+     }
+     .navBtns {
+        display: flex;
+        gap: 30px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 20px;
+    }
+    .mainName {
+        font-size: 111px;
+        margin-top: -20px;
+    }
+    .trustedUser {
+        margin-top: 50px;
+        font-size: 19.69px;
+    }
+
+
+
+    /* -------------------------------------------------------------tabReadSection-------------------------------------------------------- */
+
+    .readSection {
+        margin-top: -44px;
+    }
+    .readFetureSection {
+        margin-top: 120px;
+        max-width: 100%;
+    }
+    .readSection h2 {
+        font-size: 35px;
+    }
+    .readSection .readPara {
+        max-width: 650px;
+        font-size: 23px;
+    }
+    .readSection h5 {
+        font-size: 19px;
+    }
+    .readCardText p {
+        font-size: 15px;
+    }
+    .readSection .readCard {
+        gap: 15px;
+        max-width: 340px;
+    }
+
+
+
+
+
+    /* -----------------------------------------------------------taborganisationSection---------------------------------------------------------- */
+    .organisationSection .organisationHeading h3 {
+        max-width: 545px;
+        font-size: 24px;
+ 
+    }
+    .organisationSection {
+        padding: 39px 0px;
+    }
+
+
+    .organisationLogos {
+        gap: 25px;
+        padding-bottom: 50px;
+    }
+    .organisationLogo {
+        display: flex;
+        gap: 15px;
+        flex-direction: column;
+        align-items: center;
+      
+    }
+
+
+/* -------------------------------------------------------------tabOurExtensionSection--------------------------------------------------------- */
+
+.ourExtensionSection {
+    padding: 80px 0px;
+}
+.ourExtensionSection h2 {
+    font-size: 35px;
+}
+.ourExtensionHeading p {
+    font-size: 19px;
+    max-width: 682px;
+}
+.extensionCardParent {
+    padding: 7px;
+    margin-top: 25px;
+}
+
+
+/* ---------------------------------------------------------------tabTrackingSection------------------------------------------------------------ */
+
+.trackingSection .trackingHeading h2 {
+    font-size: 35px;
+}
+.trackingLeftSection {
+    max-width: 100%;
+    padding: 10px 20px;
+    text-align: center;
+}
+.trackingLeftSection .trackingPara {
+    padding-right: unset;
+}
+.trackingLeftSection p {
+    font-size: 20px;
+}
+
+.trackingIcon {
+    display: flex;
+    margin-top: 48px;
+    gap: 30px;
+    justify-content: center;
+}
+.trackingSection {
+    background-color: #EEF8FE;
+    padding: 50px 0px;
+}
+.trackingRightSection {
+    max-width: 100%;
+    gap: 30px;
+ 
+}
+.trackingAchievement {
+    display: flex;
+    gap: 74px;
+    justify-content: center;
+}
+.trackingRightSection h2 {
+    font-size: 61.35px;
+}
+
+.trackingAchievement h5 {
+    font-size: 22px;
+}
+
+.trackingAchievement2 {
+    justify-content: center;
+}
+.trackingSection .row {
+    gap: 80px;
+    margin-top: 50px;
+}
+
+
+/* ------------------------------------------------tabTestimonialSection---------------------------------------------------------- */
+.testimonialSection .card p {
+    font-size: 14px;
+    /* max-width: 322px; */
+}
+.testimonialSection {
+    padding-top: 100px;
+}
+
+.testimonialCard h4 {
+    font-size: 22px;
+}
+.testimonialSection h2 {
+    font-size: 35px;
+    max-width: 100%;
+}
+
+.testimonialSection .testimonialHeading {
+    margin-bottom: 45px;
+}
+
+
+/* -------------------------------------------------------------------------------tabblogSection---------------------------- */
+ .blogSection {
+    padding: 100px 0px;
+}
+
+.blogHeading h2 {
+    font-size: 35px;
+    /* max-width: 100%; */
+}
+.blogCard .card-text {
+    font-size: 16px;
+}
+
+.blogCard .btnColor {
+    padding: 10px 25px 10px 25px;
+}
+
+
+
+
+
+/* --------------------------------------------------------------tabServiceSection----------------------------------------------------------- */
+.installing .serviceText {
+    padding: 30px 10px 30px 10px;
+    gap: 10px;
+    border-radius: 20px;
+    max-width: 280px;
+    border: 1px solid red;
+}
+.installing2 .serviceText {
+    padding: 30px 10px 30px 10px;
+    gap: 10px;
+    border-radius: 20px;
+    max-width: 280px;
+    border: 1px solid red;
+}
+.installing2 {
+    gap: 45px;
+}
+.installing {
+    gap: 45px;
+}
+.serviceMainHeading h2 {
+    font-size: 35px;
+    max-width: 500px;
+    margin-bottom: 125px;
+} 
+.serviceIcon img{
+    max-width: 70%;
+}
+
+.serviceText h3 {
+    font-size: 22px;
+}
+
+.serviceText p {
+    font-size: 14px;
+}
+.serviceText h3 {
+    font-size: 16px;
+}
+
+.serviceSection .serviceNumber {
+    background-color: #0B57CF;
+    color: white;
+    width: 60px;
+    height: 60px;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 500;
+}
+.serviceSection .serviceNumber2 {
+    background-color: #0B57CF;
+    color: white;
+    width: 60px;
+    height: 60px;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+
+/* ---------------------------------------tabFooterSection------------------------------------------------------- */
+
+.footerSection .footerPara {
+    max-width: 100%;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.footerListHeading {
+    font-size: 23px;
+}
+.copyrightSection .row{
+    gap: 15px;
+}
+.copyrightSection .socials {
+    display: flex;
+    align-items: center;
+   
+    justify-content: space-between;
+}
+
+
+
+
+}
+
+
+
+
+/* ------------------------------------------------------------mobileResponsive------------------------------------------------ */
+
+
+@media (max-width: 767px) {
+    .container {
+        max-width: 100% ;
+    
+    }
+
+    /* -----------------------------------------------MOBILEheroSection-------------------------------------------------------------------- */
+    .heroPadding {
+        padding-top: 30px;
+    }
+ 
+    .mainName {
+        font-size: 50px;
+        margin-top: -17px;
+    }
+    .readSection {
+        margin-top: -18px;
+    }
+    .headerText1{
+
+font-size: 12.69px;
+letter-spacing: 0.15534721314907074px;
+text-align: left;
+
+    }
+
+    .icon {
+        display: flex;
+        gap: 12px;
+    }
+    .heroSection .extensionBtn a {
+        padding: 10px 10px 10px 10px;
+        font-size: 9px;
+    }
+    .heroLeft h1 {
+        font-size: 21px;
+        line-height: 29.26px;
+    }
+    .heroPara1{
+font-size: 16px;
+line-height: 24px;
+text-align: left;
+
+    }
+    .heroPara1 img{
+        display: none;
+    }
+    .heroPara2{
+font-size: 16px;
+line-height: 21.79px;
+text-align: left;
+
+    }
+    .extensionBtn {
+        margin-top: 48px;
+        gap: 20px;
+    }
+  .extensionBtn a{
+padding: 10.42px 20.84px 10.42px 20.84px;
+gap: 5.21px;
+border-radius: 5.21px;
+border: 0.52px ;
+font-size: 9.38px;
+font-weight: 600;
+line-height: 14.07px;
+
+  }
+
+ 
+
+  .extensionBtn a img{
+    width: 9px;
+    height: 9px;
+  }
+  .icon a{
+font-size: 12px;
+line-height: 9.6px;
+
+padding: 3.38px 11.38px 3.38px 11.38px;
+gap: 3.08px;
+border-radius: 6.15px ;
+
+  }
+ .trustedUser{
+font-size: 16px;
+line-height: 16.8px;
+margin-top: 15px;
+ }
+
+ .trustedUser img{
+    width: 21px;
+    height: 21px;
+ }
+
+
+
+ /* -------------------------------------------------mobileReadSection--------------------------------------------------------- */
+ .readSection h2 {
+    font-size: 22px;
+}
+.readSection .readPara{
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+text-align: center;
+
+}
+.readSection h5 {
+font-size: 15.97px;
+font-weight: 700;
+line-height: 19.47px;
+
+}
+.readCardText p {
+    font-size: 13.6px;
+}
+.readSection .readCard  img{
+    width: 50px;
+    height: 50px;
+}
+.readFetureSection {
+    margin-top: 70px;
+}
+.readCardParent {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+    max-width: 100%;
+}
+.readSection .readCard {
+    gap: 15px;
+    max-width: 325px;
+}
+
+
+/* -----------------------------------------------------mobileourExtenstionSection---------------------------------------------------------- */
+
+
+.ourExtensionSection h2{
+font-size: 22px;
+
+}
+.cardCarousel .item {
+    padding-top: 20px;
+    display: flex;
+    justify-content: unset;
+}
+
+.ourExtensionSection {
+    padding: 35px 20px 20px 20px;
+}
+.ourExtensionHeading p{
+font-size: 16.19px;
+font-weight: 600;
+line-height: 24.28px;
+}
+.extensionCard {
+    max-width: 253px;
+    height: 245px;
+    padding: 30px 15px;
+
+}
+.cardCarousel .owl-nav {
+    margin-top: 10px;
+}
+.extensionCardParent {
+    padding: 7px;
+    margin-top: 0px;
+}
+.extensionCard h5 {
+    font-size: 17.33px;
+}
+.extensionCard p{
+font-size: 11.55px;
+line-height: 16.17px;
+
+}
+
+
+/* --------------------------------------------------mobileTrackingSection--------------------------------------------------------------------------- */
+
+.trackingSection .trackingHeading h2 {
+    
+font-size: 22px;
+line-height: 26.82px;
+}
+.trackingSection h3 {
+    font-size: 20px;
+}
+.trackingLeftSection .trackingPara {
+    font-size: 16px;
+}
+
+.trackingLeftSection p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20.04px;
+}
+
+
+.trackingIcon img{
+    height: 21px;
+    width: 28px;
+}
+.globe, .hide {
+    gap: 8px;
+    max-width: 130px;
+}
+.trackingSection .row {
+    gap: 40px;
+    margin-top: 50px;
+}
+.trackingRightSection h2{
+font-size: 35.77px;
+
+}
+
+.trackingRightSection{
+    padding: 0px 20px;
+}
+.trackingAchievement {
+    display: flex;
+    gap: 40px;
+    /* justify-content: center; */
+}
+.trackingAchievement h5{
+
+font-size: 10.08px;
+font-weight: 600;
+line-height: 12.29px;
+}
+.trackingAchievement2 h5{
+font-size: 10.08px;
+font-weight: 600;
+line-height: 12.29px;
+
+}
+
+
+ /* -----------------------------------------mobileorganisationSection------------------------------------------------------------ */
+
+
+.organisationSection .organisationHeading h3 {
+    font-size: 13px;
+}
+.organisationLogo h5 {
+    font-size: 10px;
+}
+
+.organisationLogos {
+    gap: 15px;
+    padding-bottom: 20px;
+}
+.testimonialSection h2 {
+    font-size: 22px;
+    /* max-width: 89%; */
+    line-height: 26.4px;
+}
+.testimonialSection h5 {
+ 
+    font-size: 16px;
+    letter-spacing: 0.25px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.testimonialSection {
+    padding-top: 50px;
+}
+.testimonialHeading h5::before {
+    width: 167px;
+}
+.testimonialSection .testimonialHeading {
+    margin-bottom: 10px;
+}
+.testimonialCard h4 {
+    font-size: 16px;
+}
+.testimonialCard h3 {
+    font-size: 10px;
+}
+
+.cardMainImg{
+    width: 60px;
+    height: 60px;
+}
+
+.testimonialSection .card {
+    width: 285px;
+    height: 325px;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.testimonialSection .card p {
+    font-size: 11px;
+}
+.testimonialSection .cardNameSection {
+    gap: 23px;
+    padding-bottom: 25px;
+}
+.blogHeading h2 {
+    font-size: 22px;
+    max-width: 88%;
+}
+.blogCardParent .blogCard {
+    max-width: 88%;
+  
+}
+.blogCard .card-title {
+    font-size: 16px;
+}
+.blogCard .card-text {
+    font-size: 13px;
+}
+.blogCardParent {
+    margin-top: 40px;
+    gap: 40px;
+  
+}
+
+/* --------------------------------------mobileServiceSection---------------------------------------------------------------- */
+.serviceMainHeading h2 {
+    font-size: 22px;
+    line-height: 26px;
+    max-width: 88%;
+
+    margin-bottom: 50px;
+}
+.serviceMainHeading {
+    padding-top: 50px;
+}
+.serviceMainHeading h5 {
+    font-size: 13px;
+}
+.serviceMainHeading h5::before {
+    width: 50px;
+
+}
+.blogCard .btnColor {
+    width: 100%;
+}
+.serviceText h3 {
+    font-size: 9px;
+    text-align: center;
+}
+
+.installing2 .serviceText {
+    padding: 20px 10px 20px 10px;
+    gap: 10px;
+    max-width: 140px;
+}
+
+.installing .serviceText {
+    padding: 30px 10px 30px 10px;
+    gap: 10px;
+    max-width: 130px;
+}
+
+.serviceText p {
+    font-size: 9px;
+    line-height: 18px;
+}
+.serviceSection .serviceNumber {
+
+    width: 45px;
+    height: 45px;
+    font-size: 21px;
+}
+.serviceSection .serviceNumber2 {
+
+    width: 45px;
+    height: 45px;
+    font-size: 21px;
+}
+
+.installing {
+    gap: 13px;
+}
+.installing2 {
+    gap: 13px;
+}
+
+.serviceIcon img{
+    width: 55%;
+}
+.serviceParent {
+    margin-bottom: 50px;
+}
+
+
+
+.footerTabs{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.copyrightSection .privacyTabs {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 22px;
+    align-items: start;
+}
+.copyrightSection .socials {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: start;
+        /* justify-content: space-between; */
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
